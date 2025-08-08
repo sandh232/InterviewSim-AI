@@ -1,0 +1,20 @@
+2025-08-08 17:26:40,130 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-08 17:26:40,132 | INFO | openai._base_client | Retrying request to /chat/completions in 0.470397 seconds
+2025-08-08 17:26:41,399 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-08 17:26:41,400 | INFO | openai._base_client | Retrying request to /chat/completions in 0.784307 seconds
+2025-08-08 17:26:42,999 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-08 17:26:43,018 | ERROR | app.logging_config | Agent error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-08-08 17:27:02,863 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-08 17:27:02,865 | INFO | openai._base_client | Retrying request to /chat/completions in 0.494302 seconds
+2025-08-08 17:27:03,516 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-08 17:27:03,517 | INFO | openai._base_client | Retrying request to /chat/completions in 0.779392 seconds
+2025-08-08 17:27:05,112 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-08 17:27:05,114 | ERROR | app.logging_config | Agent error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-08-08 17:29:51,376 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7700
+ * Running on http://172.20.10.3:7700
+2025-08-08 17:29:51,376 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-08-08 17:29:51,377 | INFO | werkzeug |  * Restarting with stat
+2025-08-08 17:29:52,464 | WARNING | werkzeug |  * Debugger is active!
+2025-08-08 17:29:52,478 | INFO | werkzeug |  * Debugger PIN: 498-119-954
