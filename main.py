@@ -8,7 +8,7 @@ if __name__ == "__main__":
     # session_store = {}
     # user_id = "test_user"
     # while True:
-    #     try:
+    #     try:echo "gunicorn --bind=0.0.0.0 --timeout 600 main:app" > startup.sh
     #         user_input = input("You: ").strip()
     #         if user_input.lower() in ["exit", "quit"]:
     #             print("👋 Good luck with your interviews!")
