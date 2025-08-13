@@ -15,7 +15,7 @@ load_dotenv()
 # LLM's temperature is what controls the creativity of the model’s output. The lower the temperature
 # lower the temperature, the more deterministic the output, 
 # and the higher the temperature, the more random the output will be
-llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0.5)
+llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0.5, openai_api_key=os.getenv("OPENAI_API_KEY"))
 
 
 ##### 2. Defining the Core Interview Prompt Templates #####
