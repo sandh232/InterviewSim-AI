@@ -38,3 +38,10 @@ def webhook():
         resp.message("Sorry, something went wrong. Please try again later.")
         return str(resp)
 
+@app.route("/health")
+def health():
+    return "OK", 200
+
+@app.route("/")
+def home():
+    return "App is running!"
